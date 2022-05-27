@@ -11,7 +11,8 @@ Aquí se pueden ver como corren todos los pasos que estaban en el dockerfile:
 
 <img width="602" alt="Screen Shot 2022-05-10 at 3 38 01 PM" src="https://user-images.githubusercontent.com/72221161/170720014-2bd74dc9-0143-47db-a565-dc7941ccd3d7.png">
 
-Cuando se construya exitosamente, podemos entonces correr el servicio de docker. Usamos el comando sudo docker run -it -p 80:80 sofia:v01 python3 app.py . Esto es para correr el servicio de forma interactiva en el puerto 80 y se le indica el contenedor. Luego agregamos python3 app.py para que este comando corra adentro de la terminal y se pueda ejecutar el programa
+Cuando se construya exitosamente, podemos entonces correr el servicio de docker. Usamos el comando sudo docker run -it -p 80:80 sofia:v01 python3 app.py
+Esto es para correr el servicio de forma interactiva en el puerto 80 y se le indica el contenedor. Luego agregamos python3 app.py para que este comando corra adentro de la terminal y se pueda ejecutar el programa
 
 Al hacer esto, ya nos debe funcionar el contenedor. Para verificar su funcionamiento en un navegador ingresamos en la barra de búsqueda localhost:8050, que es el puerto que habíamos designado para la aplicación. Y ya este nos debe mostrar la página web con el programa de Python funcionando:
 
